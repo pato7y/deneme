@@ -1,0 +1,161 @@
+ *  {
+  /*  font-family: "Lucida Console", "Courier New", monospace; 
+
+   font-family: "Brush Script MT", cursive; */
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  align-items: center;
+
+  font-size: large;
+  text-align: center ;
+  text-decoration: wavy;
+  color: rgb(0, 251, 255);
+  /*
+  text-decoration-line: underline;
+  text-decoration-color: green;
+  */
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #53d0c0;
+  
+  }
+  a {
+    color: rgb(105, 255, 158);
+  }
+  /*
+  ol {
+    background: #ff9999;
+    padding:10px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 10px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 15px;
+  }
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  }  
+  */
+
+  /*
+  
+  
+p.uppercase{
+  text-transform: uppercase;
+}
+  
+  */
+  /*
+  p.dashed {border-style: dashed;}
+  */
+  /*
+  * {
+    text-align: center;
+    color: blue;
+  }
+  */
+
+/* for example we can execute with id and we can define them as ,
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#para1 {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<p id="para1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
+
+</body>
+</html>
+
+
+
+
+or an example like this one with class 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<h1 class="center">Red and center-aligned heading</h1>
+<p class="center">Red and center-aligned paragraph.</p> 
+
+</body>
+</html>
+
+
+
+
+can be executed to more than one 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.center {
+  text-align: center;
+  color: red;
+}
+
+p.large {
+  font-size: 300%;
+}
+</style>
+</head>
+<body>
+
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be red and center-aligned.</p>
+<p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+
+</body>
+
+
+this will be executed to all docs 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  text-align: center;
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello world!</h1>
+
+<p>Every element on the page will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+
+</body>
+</html>
+
+
+
+
+*/ 

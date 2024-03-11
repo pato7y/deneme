@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+  /* commend line added here*/
+  body {
+    background-color: #fc9; /* same as #ffcc99 */
+  }
+  
+  h1 {
+    color: #f0f; /* same as #ff00ff */
+  }
+  
+  p {
+    color: #b58; /* same as #bb5588 */
+  }
+  
