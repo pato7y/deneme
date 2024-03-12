@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+    <div id="container">
+        <style>
+            #container {
+                    text-align: center; 
+                }
+        </style>
+<h2>JavaScript Comparisons</h2>
+
+<p>enter  your age and click the button:</p>
+
+<input id="age" value="18" />
+
+<button onclick="myFunction()">Try it</button>
+
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let license;
+  let age = Number(document.getElementById("age").value);
+  if (isNaN(age)) {
+    license = "Input is not a number";
+  } else {
+    license = (age < 18) ? "cant get license" : "can get a licence";
+  }
+  document.getElementById("demo").innerHTML = license + " for driving";
+}
+</script>
+</div>
+
+
+</body>
+</html>
