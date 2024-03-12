@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<body>
+    <style>
+        #demo{
+           text-align: center;
+        }
+    </style>
+</body>
+
+<p id="demo"></p>
+
+<script>
+const day = ["tuesday", "wednesday", "friday", "saturday"];
+const myDays = day.with(2, "thursday");
+
+document.getElementById("demo").innerHTML = myDays;
+</script>
+<body>
+    
+
+<script>
+
+const q1 = ["Jan", "Feb", "Mar"];
+const q2 = ["Apr", "May", "Jun"];
+const q3 = ["Jul", "Aug", "Sep"];
+const q4 = ["Oct", "Nov", "May"];
+
+const year = [...q1, ...q2, ...q3, ...q4];
+document.getElementById("demo").innerHTML = year; 
+</script>
+
+<script>
+    const d = new Date();
+    document.getElementById("demo").innerHTML = d.toString();
+    </script>
+</body>
+</body>
+</html>
