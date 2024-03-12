@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #container {
+            text-align: center; 
+        }
+        
+        #demo_button {
+            background-color: #4CAF50; 
+            border: none;
+            color: white; 
+            padding: 15px 32px; 
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 10px; 
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <h2 id="demo">JavaScript Math.random()</h2>
+
+    <p id="demo">in each click , getRndInteger(min, max) produce a number between 1  and 1000 both included :</p>
+
+    <button id="demo_button" onclick="document.getElementById('demo').innerHTML = getRndInteger(1,1000)">Click</button>
+</div>
+
+<script>
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+</script>
+
+</body>
+</html>
